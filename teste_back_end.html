@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento de Testes</title>
+
+<link rel="stylesheet" href="teste_back_end.css">
+</head>
+
+<body>
+     <h2>Plano de Testes</h2>
+     <p>  <b>plano de teste</b> é um documento que especifica, principalmente:</p>
+     <ul>
+        <li>o objetivo do teste;</li>
+        <li>o escopo do sistema e os requisitos que deverão ser avaliados;</li>
+        <li> oselementos que serão testados e quais dados serão monitorados durante a execução do teste;</li>
+        <li> o cronograma de atividades;</li>
+        <li> a técnica que será utilizada (funcional, estrutural etc);</li>
+        <li>s recursos que serão utilizados (tipo de software).</li>
+     </ul>
+
+      <img src="captura de tela.png" alt="">
+
+     <h2>Caso de teste</h2>
+     <p>um caso de teste pode ser agrupado com outros casos para formar uma suíte de testes. Por exemplo:</p>
+     <ul>
+        <li><b>caso de teste 1</b>: efetuar login;</li>
+        <li><b>caso de teste 2</b>: Incluir novos produtos;</li>
+        <li><b>caso de teste 3</b>:finaliar compra;</li>
+        <li><b>caso de teste 4</b>: efetuar logout.</li>
+     </ul>
+     <h2> Relatório de Incidentes de Testes</h2>
+     <p>é um documento ou registro essencial que detalha falhas, erros ou comportamentos inesperados encontrados na camada de lógica do sistema (APIs, bancos de dados, integrações, regras de negócio) durante o ciclo de QA (Quality Assurance).Diferente do frontend, os incidentes de backend geralmente envolvem mensagens de erro em APIs, códigos de status HTTP incorretos, problemas de performance, corrupção de dados ou falhas de segurança.</p>
+
+     <h2> Relatório de Resumo de Teste</h2>
+     <p> é um documento técnico e estratégico que consolida os resultados, métricas e conclusões obtidos após a execução dos testes na camada de aplicação, banco de dados, APIs e integrações. Diferente do front-end (onde o foco é a interface e a experiência do usuário), o resumo de teste back-end foca em estabilidade, segurança performance, integridade dos dados e regras de negócio.</p>
+
+     <h2>Elaboração do caso de Teste</h2>
+     <p>Trata-se do documento que define comounidades que serão testadas, incluindo dados de entrada, resultados, ações e condições gerais para a execução do teste, ou seja, responda à pergunta: o que será testado? Uma resposta poderia ser caso de teste 1: efetuar login.</p>
+ <p>
+
+ <b>Exemplo prático: Tela de Login</b>
+  <b>Cenário 1: Login com sucesso </b>
+   • ID: CT_LOGIN_01 <br>
+   • <b>Objetivo:</b> Verificar se o usuário consegue acessar o sistema com credenciais válidas. <br>
+   • <b>Pré-condições: </b><br>
+	• O usuário já possui cadastro ativo no sistema. <br>
+	• Estar na tela de login. <br>
+   • <b>Passos:</b> <br>
+	1. Digitar o e-mail usuario@email.com no campo "E-mail".  <br>
+	2. Digitar a senha Senha123! no campo "Senha". <br>
+	3. Clicar no botão "Entrar". <br>
+   • <b>Resultado esperado:</b> <br>
+	• O sistema autentica o usuário e redireciona para a página principal (Dashboard), exibindo a mensagem de boas-vindas. <br>
+</p>
+
+<h2>Execução do Programa</h2>
+<p>Nessa etapa, execute-se o programa ou o código utilizando os atributos do HTML, como classe, id, título, texto, de acordo com o plano de teste e com os casos de testes elaborados, objetivando identificar os elementos da página são semelhantes às interações do usuário. É por meio dessa interação que é possível obter os resultados e a coleta de erros.</p>
+
+   <h2>Monitoração e Controle</h2>
+
+<p>Durante a execução do teste, os dados são monitorados e selecionados aleatoriamente. fatores que influenciam o erro. Como resultado dessa etapa, sugere-se a elaboração de um documento chamado relatório de incidente de teste, que deve descrever todos os eventos ocorridos, viabilizando, posteriormente, a análise pela equipe de desenvolvimento, responsável por realizar a correção dessas falhas.</p>
+
+<h2>Avaliação de Resultados </h2>
+<p>Nessa etapa, um equipe de desenvolvimento avaliará o erro, buscando compreender o que o ocasionou, por exemplo erro de sistema, de código, de internet, de hardware, para, assim, corrige-lo. É normal que as aplicações sejam apresentadas
+erros de modo não consecutivo. Alguns
+fatores motivadores da ocorrência de erros, como rede, requisições ou caso o
+sistema está consumindo uma API que está fora do ar por razões de atualização,
+de implantação do sistema ou do serviço do site em que o sistema está hospedado
+ou, ainda, em razão de uma atualização ou correção de erro no site que está no
+ambiente de produção.</p>
+
+<h2>Comunicação com as Equipes de Automoção de Testes</h2>
+<p>Uma equipe de automação de testes é responsável por desenvolver um encontrei que testará o aplicativo, o serviço ou o sistema online. Não planejamento de testes, cada equipe se responsabiliza por uma atividade,
+por exemplo, criar um -, Monitorar o teste, fazer a coleta dos erros etc.</p>
+
+<video width="320" height="240" controls>
+   <source src="videoplayback.mp4" type="video/mp4">
+</video>
+
+</body>
+</html>
